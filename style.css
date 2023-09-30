@@ -1,0 +1,63 @@
+*{
+    font-size: large;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 216, 216);
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+
+.watch {
+    height: 400px;
+    width: 20%;
+    border-radius: 2%;
+    background-color: rgb(227, 247, 247);
+    box-shadow: 1px 1px 20px 14px;
+    padding: 2px 2px;
+}
+
+.watch img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.watch p{
+    padding: 4px 22px;
+    font-size: 113%;
+    text-align: center;
+}
+
+.watch span{
+    text-align: center;
+    margin-left: 8%;
+}
+
+#watchmrp{
+   font-size: 80%; 
+}
+
+#watchamt{
+    text-decoration: line-through;
+    font-size: 80%;
+}
+
+#watchdis{
+    font-size: 80%;
+}
+
+.btn{
+    justify-content: center;
+    background-color: #b12704;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #d68d7a;
+}
